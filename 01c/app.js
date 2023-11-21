@@ -10,6 +10,10 @@ class App
         this.copyright = "Geen BV";
         this.distributeur = "geen soft";
         this.darkmode = true
+        this.boolean = false
+        this.string = "string"
+        this.number = 1
+
 
     }
 }
@@ -26,3 +30,6 @@ console.log("autheur: " + app.autheur)
 console.log("copyright: " + app.copyirght)
 console.log("distributeur: " + app.distributeur)
 console.log("darkmode: " + app.darkmode)
+console.log("boolean: " + app.aboolean)
+console.log("string: " + app.string)
+console.log("number: " + app.number)
