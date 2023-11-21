@@ -3,7 +3,15 @@ class App
     runApplication()
     {
         console.log(("hello world!"));
-        ///code gaat hier
+        let appNaam = "Demo App";
+        let versienummer = 1.0
+        let versiedatum = "21-11-2023";
+        let autheur = "Yassine";
+        let copyright = "Geen BV";
+        let distributeur = "geen soft";
+        let darkmode = true
+        console.log(appNaam, versienummer, versiedatum, autheur, copyright, distributeur, darkmode,)
+
     }
 }
 
