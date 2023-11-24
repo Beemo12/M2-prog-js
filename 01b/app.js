@@ -26,3 +26,5 @@ console.log("autheur: " + app.autheur)
 console.log("copyright: " + app.copyirght)
 console.log("distributeur: " + app.distributeur)
 console.log("darkmode: " + app.darkmode)
+
+///2e opdracht
