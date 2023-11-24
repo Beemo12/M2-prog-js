@@ -33,3 +33,5 @@ console.log("darkmode: " + app.darkmode)
 console.log("boolean: " + app.aboolean)
 console.log("string: " + app.string)
 console.log("number: " + app.number)
+
+///3e opracht
