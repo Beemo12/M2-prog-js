@@ -4,15 +4,14 @@ class App
     {
         console.log("hello world");
         let canvas = document.getElementById("canvasId");
-        
-        
-        g.beginPath();
-        g.fillstyle = "blue"
-        g.moveto(20,20);
-        g.lineTo(300,300);
-        g.closePath();
-        g.stroke();
-        g.gc.strokeStyle
+
+        let g = canvas.getContext("2d");
+
+        g.fillStyle = "blue";
+        g.fillRect(0,0,canvas.width,canvas.height);
+
+        g.fillStyle = "yellow";
+        g.fillRect(0,0,10,10);  
 
         console.log(canvas);
 
