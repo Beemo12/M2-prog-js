@@ -17,7 +17,6 @@ class App {
       g.fillStyle = "green";
       this.drawHouse(g);
   
-      // Draw the window with the selected color
       g.beginPath();
       g.fillStyle = windowColor;
       g.moveTo(50, 40);
@@ -69,7 +68,6 @@ class App {
       g.stroke();
       g.fill();
   
-      // The window will be drawn separately based on the selected color
     }
   }
   
