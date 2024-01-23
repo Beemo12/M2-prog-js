@@ -4,6 +4,7 @@ class App
     {
 
         console.log("hello world!");
+        let randomGetal = Math.random();
         let canvas = document.getElementById("canvasId");
         let g = canvas.getContext("2d");
         function tekenHuis(g) {
