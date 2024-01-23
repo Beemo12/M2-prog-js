@@ -1,31 +1,25 @@
-function ArgumentsAreHandy(shoutout)
-{
-    console.log("do you want to give a shoutout?");
-    console.log("Shout out spree")
-}
-ArgumentsAreHandy();
-ArgumentsAreHandy();
-ArgumentsAreHandy();
-
-
-
-function GlobalFunction()
-{
-    console.log("ik ben global")
-    console.log("dus je mag mij overal aanroepen")
-}
-
-class App
+class App 
 {
     runApplication()
     {
-        console.log(("hello world!"));
-        GlobalFunction();
+        console.log("hello world");    
+    }
+
+    newClassFunction()
+    {
+        console.log("hello world in de nieuwClassFunction")
+        
+    }
+
+    anotherFunctionWithArguments(aArgument)
+    {
+        console.log("kom maar met je argument");
+        console.log("hier:");
+        console.log(aArgument);
     }
 }
 
 let app = new App();
 app.runApplication();
-GlobalFunction();
-GlobalFunction();
-GlobalFunction();
+app.newClassFunction();
+app.anotherFunctionWithArguments("mijn argument is iets...");
